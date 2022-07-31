@@ -19,15 +19,15 @@ export default defineConfig({
     },
   },
   resolve: {
-    alias: [
-      {
-        find: "@",
-        replacement: path.resolve("./src"),
-      },
-    ],
-    /*两种alias配置方式均可     
+    // alias: [
+    //   {
+    //     find: "@",
+    //     replacement: path.resolve("./src"),
+    //   },
     alias: {
       "@": path.resolve(__dirname, "src"),
-    }, */
+    },// ],
+    /*两种alias配置方式均可     
+    */
   },
 });
